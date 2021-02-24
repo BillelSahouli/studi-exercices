@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon Compte - MY PROGRESS{% endblock %}
+
+{% block content %}
+    {% if app.user %}
+        <div class="mt-5">
+            <h1 class="h1-profil">PROFIL</h1>
+        </div>
+        <div class="card-profil">
+            <div class="col-md-2">
+                <div class="card bg-light">
+                    <div class="card-header text-center">
+                        {{ app.user.firstname }} ici tu peut modifier ton mot de passe
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text">Modifier mes informations ?</p>
+                        <a href="{{ path('account_password') }}" class="btn btn-primary">Clique ici</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}

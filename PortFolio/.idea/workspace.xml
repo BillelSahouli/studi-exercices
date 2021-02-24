@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32457ffe-1757-4901-97c6-6c496e62e06b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-MVC/controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-MVC/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-MVC/models/Modele.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-MVC/models/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-MVC/models/Posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-MVC/views/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-MVC/views/post-show.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-MVC/views/posts-list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-mvc2/controleurs/PhotoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-mvc2/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-mvc2/models/Modele.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-mvc2/models/Photo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-mvc2/models/Photos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-mvc2/photos/planet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-mvc2/views/affiche-photo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-mvc2/views/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model-mvc2/views/liste-photos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../symfony/src/Controller/BasicController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../symfony/src/Service/UserManager.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1l18IIwsRdkwQWcx4GazX5tdeFC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32457ffe-1757-4901-97c6-6c496e62e06b" name="Default Changelist" comment="" />
+      <created>1606753156211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606753156211</updated>
+      <workItem from="1606753157835" duration="600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

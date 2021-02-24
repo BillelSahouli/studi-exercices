@@ -1,0 +1,47 @@
+
+    body {
+        font-family: Calibri, serif;
+    }
+
+    form {
+        max-width: 50%;
+    }
+
+    form label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    label.inline-label {
+        display: inline-block;
+    }
+
+    fieldset {
+        border: 1px solid lightgray;
+        background-color: rgba(225, 233, 255, 0.25);
+    }
+
+    legend {
+        font-style: italic;
+        font-size: 1.1em;
+        padding: 5px;
+    }
+
+    form input, form select, form textarea {
+        display: inline-block;
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 80%;
+    }
+
+    form input[type="radio"],
+    form input[type="checkbox"],
+    form input[type="submit"] {
+        width: auto;
+    }
+
+    button[type=submit], button[type=reset] {
+        padding: 10px;
+        margin-top: 15px;
+    }

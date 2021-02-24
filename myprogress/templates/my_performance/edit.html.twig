@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Modifier ma performance - MY PROGRESS{% endblock %}
+
+{% block content %}
+    {% if app.user %}
+        <div class="container center-form-edit">
+            <div class="row justify-content-center">
+                <div class="col-md-4"style="width: 316px;">
+                    <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-center">Modifier ma performance</div>
+                        <div class="card-body text-center">
+                            {{ form_start(form) }}
+                                {{ form_row(form.date) }}
+                                {{ form_row(form.weight) }}
+                                {{ form_row(form.repetition) }}
+                            <button type="submit" class="btn btn-success">Valider</button>
+                            {{ form_end(form) }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Les exercices - MY PROGRESS{% endblock %}
+
+{% block content %}
+    <h1 class="h1-exercices">EXERCICES</h1>
+    <div class="container-fluid">
+        <div class="row row-margin-top">
+            <div class="col-md-2">
+                <h5 class="title-filter">FILTRER</h5>
+                {{ form(form) }}
+            </div>
+            {% for exercice in exercices %}
+                <div class="col-md-3 text-center">
+                    <div class="exercice-item">
+                        <a href="{{ path('exercice', {'id' : exercice.id}) }}"><img src="/uploads/{{ exercice.illustration }}" alt="{{ exercice.name }}" class="img-fluid img-exo"></a>
+                        <h5 class="exercice-name">{{ exercice.name }}</h5>
+                        <span class="exercice-subtitle">{{ exercice.subtitle }}</span>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

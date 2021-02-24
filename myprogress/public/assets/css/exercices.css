@@ -1,0 +1,95 @@
+/*Iphone 6/7/8 Plus*/
+@media (max-width: 414px) {
+    .h1-exercices {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        text-align:center;
+        font-family: 'Red Hat Display', Fantasy;
+        font-style:  italic;
+        font-size: 3.1em;
+        letter-spacing: 10px;
+        animation-name: title;
+        animation-duration: 1.9s;
+        animation-delay: 0.1ms;
+        animation-fill-mode: forwards;
+    }
+
+    .row-margin-top {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .exercice-name {
+        text-transform: uppercase;
+        font-family: 'Red Hat Display',sans-serif;
+        font-size: 1.2em;
+        color: #0e25c3;
+    }
+    .exercice-subtitle{
+        font-style: italic;
+        color:#00000075;
+    }
+    .title-filter{
+        font-family: 'Red Hat Display', sans-serif;
+        color: #0e25c3;
+        font-size: 1.2em;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+
+    .h1-exercices {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        text-align:center;
+        font-family: 'Red Hat Display', Fantasy;
+        font-style:  italic;
+        font-size: 5.1em;
+        letter-spacing: 10px;
+        animation-name: title;
+        animation-duration: 1.9s;
+        animation-delay: 0.1ms;
+        animation-fill-mode: forwards;
+        transition: transform .5s ease;
+    }
+    .h1-exercices:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.3);
+    }
+
+    .row-margin-top {
+        margin-top: 60px;
+        justify-content: center;
+        margin-bottom:29px;
+    }
+
+    .exercice-item{
+        transition: transform .5s ease;
+    }
+    .exercice-item:hover {
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2);
+    }
+    .exercice-name {
+        text-transform: uppercase;
+        font-family: 'Red Hat Display',sans-serif;
+        font-size: 1.2em;
+        color: #0e25c3;
+    }
+    .exercice-subtitle{
+        font-style: italic;
+        color:#00000075;
+    }
+    .title-filter{
+        font-family: 'Red Hat Display', sans-serif;
+        color: #0e25c3;
+        font-size: 1.2em;
+    }
+
+}

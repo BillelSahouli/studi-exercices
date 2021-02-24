@@ -1,0 +1,158 @@
+/*Iphone 6/7/8 Plus*/
+@media (max-width: 414px) {
+
+    .show-exercice-name {
+        text-transform: uppercase;
+        color: #0e25c3;
+    }
+
+    .show-exercice-subtitle{
+        font-style:  italic;
+        color: #62606082;
+    }
+
+    .custom-label {
+        color: #0e25c3;
+    }
+
+    .notif-style {
+        margin-top: 80px;
+        border: solid 1px;
+        border-radius: 20px;
+        padding: 6px;
+        background-color: #0e63d4;
+        color: white;
+    }
+
+    #performance_date_day{
+        width:70px;
+        height:50px;
+    }
+
+    #performance_date_month{
+        width:70px;
+        height:50px;
+    }
+
+    #performance_date_year{
+        width:90px;
+        height:50px;
+    }
+
+    #performance_weight {
+        width:210px;
+        height:50px;
+    }
+
+    #performance_repetition {
+        width:210px;
+        height:50px;
+    }
+
+    .btn-primary {
+        width: 200px;
+    }
+
+    #myTable {
+        position:relative;
+        right:14px;
+        font-size:0.8em;
+    }
+    #myInput{
+        position:relative;
+        right:14px;
+        margin-top:20px;
+    }
+
+    .tr-title th {
+        background-color: #ff063dc7;
+        color: white;
+    }
+
+    .btn-modify a {
+        color: #ff3d68;
+    }
+
+    .btn-delete a{
+        color: #000000;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .row-show-exercice {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    .show-exercice-name {
+        text-transform: uppercase;
+        color: #0e25c3;
+    }
+    .show-exercice-subtitle{
+        font-style:  italic;
+        color: #62606082;
+    }
+
+    .row-form-show-exercice {
+        margin-top: 60px;
+    }
+
+    .custom-date {
+        width: 250px;
+    }
+    .custom-weight {
+        width: 250px;
+    }
+    .custom-repetition {
+        width: 250px;
+    }
+
+    .custom-label {
+        text-transform: uppercase;
+        color: #0e25c3;
+        width: auto;
+    }
+
+    .notif-style {
+        margin-top: 80px;
+        border: solid 1px;
+        border-radius: 20px;
+        padding: 6px;
+        background-color: #0e63d4;
+        color: white;
+    }
+
+    .btn-primary {
+        width: 200px;
+    }
+    .contain-table {
+        margin-left:90px;
+    }
+
+    .tr-title th {
+        font-weight: 400;
+        font-family: 'Red Hat Display',sans-serif;
+        font-size: 0.9em;
+        text-transform: uppercase;
+        padding: 3px;
+        background-color: #ff063dc7;
+        color: white;
+    }
+
+    .tr-result th {
+        font-weight: 400;
+    }
+
+    .btn-modify {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .btn-modify a {
+        color: #ff3d68;
+    }
+
+    .btn-delete {
+        color: #ff3d68;
+    }
+}

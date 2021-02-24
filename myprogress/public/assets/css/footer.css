@@ -1,0 +1,23 @@
+
+@media (max-width: 414px) {
+    footer {
+        position:absolute;
+        width:100%;
+        margin-top:50px;
+        background-color: #1309f5d4;
+        color:white;
+        font-size:0.8em;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1025px) {
+    footer {
+        position:absolute;
+        width:100%;
+        margin-top:275px;
+        background-color: #1309f5d4;
+        color:white;
+        font-size:0.9em;
+        text-align: center;
+    }
+}

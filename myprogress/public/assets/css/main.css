@@ -1,0 +1,108 @@
+/*Iphone 6/7/8 Plus*/
+@media (max-width: 414px) {
+    .h1-home{
+        padding-top: 40px;
+        text-align:center;
+        font-family: 'Red Hat Display', Fantasy;
+        font-style:  italic;
+        font-size: 3.1em;
+        letter-spacing: 10px;
+        animation-name: title;
+        animation-duration: 1.9s;
+        animation-delay: 0.1ms;
+        animation-fill-mode: forwards;
+    }
+    @keyframes title {
+        0%   {color:#0e25c300; }
+        5%  {color:#0e25c305; }
+        10%  {color:#0e25c30d; }
+        15%  {color:#0e25c31a;}
+        20% {color:#0e25c333;}
+        25% {color:#0e25c34d;}
+        30% {color:#0e25c363;}
+        35% {color:#0e25c373;}
+        40% {color:#0e25c380;}
+        45% {color:#0e25c38a}
+        50% {color:#0e25c394;}
+        55% {color:#0e25c39c;}
+        60% {color:#0e25c3a3;}
+        65% {color:#0e25c3ad;}
+        70% {color:#0e25c3b5;}
+        75% {color:#0e25c3bd}
+        80% {color:#0e25c3c7;}
+        90% {color:#0e25c3d9;}
+        100% {color:#0e25c3;}
+    }
+    .p-home{
+        position: relative;
+        margin-left:40%;
+        font-size: 3.4vw;
+        bottom:22px;
+        color: #989191;
+        font-family: 'Red Hat Display', sans-serif;
+        font-style:  italic;
+    }
+
+    .card-home{
+        display: flex;
+        justify-content: center;
+    }
+    .card-text{
+        font-size:3.7vw;
+    }
+    .h3-home-card {
+        font-size:5.7vw;
+    }
+}
+
+
+
+@media screen and (min-width: 1025px) {
+
+    .h1-home{
+        padding-top: 40px;
+        text-align:center;
+        font-family: 'Red Hat Display', Fantasy;
+        font-style:  italic;
+        font-size: 5.1em;
+        letter-spacing: 10px;
+        animation-name: title;
+        animation-duration: 1.9s;
+        animation-delay: 0.1ms;
+        animation-fill-mode: forwards;
+    }
+    @keyframes title {
+        0%   {color:#0e25c300; }
+        5%  {color:#0e25c305; }
+        10%  {color:#0e25c30d; }
+        15%  {color:#0e25c31a;}
+        20% {color:#0e25c333;}
+        25% {color:#0e25c34d;}
+        30% {color:#0e25c363;}
+        35% {color:#0e25c373;}
+        40% {color:#0e25c380;}
+        45% {color:#0e25c38a}
+        50% {color:#0e25c394;}
+        55% {color:#0e25c39c;}
+        60% {color:#0e25c3a3;}
+        65% {color:#0e25c3ad;}
+        70% {color:#0e25c3b5;}
+        75% {color:#0e25c3bd}
+        80% {color:#0e25c3c7;}
+        90% {color:#0e25c3d9;}
+        100% {color:#0e25c3;}
+    }
+    .p-home{
+        position: relative;
+        margin-left: 950px;
+        bottom:26px;
+        color: #989191;
+        font-family: 'Red Hat Display', sans-serif;
+        font-style:  italic;
+    }
+
+    .card-home{
+        display: flex;
+        justify-content: center;
+    }
+}

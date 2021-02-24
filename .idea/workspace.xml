@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24be5731-226b-47c8-ae93-fc1cea405b5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-MVC/controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-MVC/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-MVC/models/Modele.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-MVC/models/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-MVC/models/Posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-MVC/views/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-MVC/views/post-show.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-MVC/views/posts-list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-mvc2/controleurs/PhotoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-mvc2/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-mvc2/models/Modele.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-mvc2/models/Photo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-mvc2/models/Photos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-mvc2/photos/planet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-mvc2/views/affiche-photo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-mvc2/views/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-mvc2/views/liste-photos.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/model-mvc2/views/affiche-photo.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/model-mvc2/views/liste-photos.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1kVTDeL17tQTH1aaglCrW7De9QN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\studi-exercices" />
+      <recent name="C:\wamp64\www\studi-exercices\model-mvc2\models" />
+      <recent name="C:\wamp64\www\studi-exercices\model-MVC-2\photos" />
+      <recent name="C:\wamp64\www\studi-exercices\model-MVC-2" />
+      <recent name="C:\wamp64\www\studi-exercices\model-MVC-2\views" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24be5731-226b-47c8-ae93-fc1cea405b5e" name="Default Changelist" comment="" />
+      <created>1605784640188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605784640188</updated>
+      <workItem from="1605784641227" duration="1581000" />
+      <workItem from="1605786233684" duration="7476000" />
+      <workItem from="1605796894477" duration="801000" />
+      <workItem from="1605797709188" duration="2135000" />
+      <workItem from="1605800134878" duration="4178000" />
+      <workItem from="1605804355852" duration="1695000" />
+      <workItem from="1605876323560" duration="3458000" />
+      <workItem from="1605879796071" duration="3448000" />
+      <workItem from="1606137083568" duration="55000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" width="816" height="729" key="#Intentions" timestamp="1605801354221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" width="816" height="729" key="#Intentions/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605801354221" />
+    <state x="336" y="361" key="#SQL_Dialects" timestamp="1605878062753">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="336" y="361" key="#SQL_Dialects/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605878062753" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605804148568">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605804148568" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605878004603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605878004603" />
+    <state x="529" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605798461783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="529" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605798461783" />
+    <state x="730" y="243" key="NewPhpClassDialog" timestamp="1605877251809">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605877251809" />
+    <state x="2650" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605794380635" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1605877113737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605877113737" />
+    <state x="2714" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605791776734" />
+    <state x="2269" y="-16" width="1357" height="1027" maximized="true" key="dock-window-1" timestamp="1605880552033">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2269" y="-16" width="1357" height="1027" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605880552033" />
+    <state x="2169" y="105" width="1414" height="1027" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605792553690" />
+    <state x="677" y="291" key="refactoring.ChangeSignatureDialog" timestamp="1605799114636">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="291" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605799114636" />
+  </component>
+</project>

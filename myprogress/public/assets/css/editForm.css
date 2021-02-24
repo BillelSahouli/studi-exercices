@@ -1,0 +1,17 @@
+@media (max-width: 414px) {
+    .center-form-edit{
+        position: relative;
+        top: 90px;
+        margin-bottom:125px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    .center-form-edit{
+        position: relative;
+        margin-top: 5%;
+        left: 2%;
+        margin-bottom:68px;
+    }
+}

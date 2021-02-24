@@ -1,0 +1,98 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ exercice.name }} - MY PROGRESS{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row row-show-exercice">
+            <div class="col-md-3">
+                <img src="/uploads/{{ exercice.illustration }}" alt="{{ exercice.name }}" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <h3 class="show-exercice-name">{{ exercice.name }}</h3>
+                <p class="show-exercice-subtitle">{{ exercice.subtitle }}</p>
+                <hr>
+                <p>{{ exercice.description }}</p>
+            </div>
+        </div>
+    </div>
+        {% if notification %}
+            {% if app.user %}
+                <div class="row">
+                    <div class="offset-md-2">
+                        <div class="notif-style" style="text-align: center">{{ notification }}</div>
+                    </div>
+                </div>
+            {% endif %}
+        {% endif %}
+        {% if app.user%}
+            <div class="container-fluid">
+                <div class="row row-form-show-exercice">
+                    <div class="col-md-2 offset-md-2">
+                        {{ form_start(form) }}
+                            {{ form_row(form.date) }}
+                            {{ form_row(form.weight) }}
+                            {{ form_row(form.repetition) }}
+                        <button type="submit" class="btn btn-success btn-valid-show">Valider</button>
+                        {{ form_end(form) }}
+                    </div>
+                    <div class="col-md-5 contain-table table-responsive ">
+                        <table class="table table-hover text-center" id="myTable">
+                            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Recherche par date" title="Type in a name">
+                            <thead>
+                            <tr class="tr-title">
+                                <th scope="col">Poids</th>
+                                <th scope="col">Répétitions</th>
+                                <th scope="col">Charge Max</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Modifier Suprimer</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                {% for experf in exercice.performances %}
+                                    {% if experf.user.id == app.user.id %}
+                                        <tr class="tr-result">
+                                            <td scope="col">{{ experf.weight}} KG</td>
+                                            <td scope="col">x{{ experf.repetition}}</td>
+                                            <td scope="col">{{ ((0.0333 * experf.repetition)+1)|round(2, 'floor') * experf.weight}} KG</td>
+                                            <td scope="col">{{ experf.date|date("d/m/Y") }}</td>
+                                            <td>
+                                                <button class="btn btn-outline-light btn-modify" type="submit">
+                                                    <a href="{{ path('edit_performance', {'id' : experf.id}) }}">modifier</a>
+                                                </button>
+                                                <button class="btn btn-outline-dark btn-delete" type="submit">
+                                                    <a href="{{ path('delete_performance', {'id' : experf.id}) }}">Suprimer</a>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    {% endif %}
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        {% else %}
+            <div class="alert alert-info">Connectez vous pour pouvoir inserez vos performances</div>
+        {% endif %}
+    <script>
+        function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[3];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+{% endblock %}
