@@ -1,6 +1,7 @@
-StudiCours 
+STACK: PHP with the Symfony frameworks and MySQL
 
--FRENCH
-	Ce sont tout les exercices concernant l'API DOM JS
--ENGLISH
-	these are all exercices that concern the API DOM JS
+FOLDER: myprogress
+myprogress is a project dedicated to practitioners of musculations.
+
+FOLDER: laboutiquefrancaise
+laboutiquefrancaise is a e-xommerce web site(is not finished)
